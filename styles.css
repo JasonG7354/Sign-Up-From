@@ -29,6 +29,15 @@ input:focus{
 
 }
 
+input:invalid{
+    border: none;
+    border: solid 1px red;
+    box-shadow: 0px 2px 6px lightgrey;
+    outline: none;
+
+
+}
+
 button:hover{
     cursor: pointer;
 }
