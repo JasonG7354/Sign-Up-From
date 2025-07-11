@@ -3,6 +3,112 @@
     margin: 0;
 }
 
+
+input{
+    width: 100%;
+   box-sizing: border-box;
+   padding: 2%;
+   margin: 10px 0px;
+}
+label{
+    font-size: 1.5rem;
+}
+
+a{
+    color: #026417;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input:focus{
+    border: none;
+    border: solid 1px blue;
+    box-shadow: 0px 2px 6px lightgrey;
+    outline: none;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+button{
+    background-color: #026417;
+    border: none;
+    font-size: 1.5rem;
+    padding: 2% 5%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+
+}
+
+
+
+h2{
+    font-size: 2rem;
+    margin-left:5.25%;
+    font-weight:normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right-container{
+    border: solid;
+}
+
+.footer{
+    margin-bottom: 30%;
+  
+    height: auto;
+    margin-left: 5%;
+
+    
+
+}
+
+.footer-par{
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.form-row{
+    display: flex;
+    
+    
+   
+}
+
+.form-container{
+    box-shadow: 0px 1px 5px lightgrey;
+    height: 30%;
+    background-color: white;
+    
+}
+
+.form-right{
+    margin-left: 5%;
+    width: 35%;
+}
+
+.form-left{
+    margin-left:5%;
+    width: 35%;
+   
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-flex{
+    display: flex;
+}
+
 #container{
     display: flex;
     height: 100vh;
@@ -11,7 +117,6 @@
 
 #left-container {
     flex-grow: 1;
-    background-color: blue;
     background-image: url("./images/leftBackgroundImage.jpg");
     background-size: cover;
     width: 25%;
@@ -21,6 +126,7 @@
 #right-container{
     flex-grow: 3;
     background-color: whitesmoke;
+   
     
 }
 
@@ -44,6 +150,13 @@
 
 .right-side{
     width: 75%;
-    font-size: 1.50rem;
+    font-size: 2rem;
     margin-left: 5%;
+    margin-top: 10%;
+    
+}
+
+.right-par{
+    margin-top: 5%;
+
 }

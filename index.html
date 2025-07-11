@@ -13,25 +13,41 @@
         <h1>ODIN</h1>
     </div>
     <div id="right-container">
-        <div class="right-side">This is not a real online service! You know what you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-            <p>You know you want to.</p>
+        <div class="right-side">This is not a real online service! You know what you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            <p class="right-par">You <em>know</em> you want to.</p>
         </div>
-        <form>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="number">Phone Number:</label>
-            <input type="tel" id="number" name="number"><br><br>
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd">
-            <label for="confirmPwd">Confirm Password:</label>
-            <input type="password" id="confirmPwd" name="confirmPwd">
-
-        </form>
-        <div>Already have an account? Log in</div>
+        <div class="form-container">
+            <form>
+                <h2>Let's do this!</h2>
+                <div class="form-row">
+                <div class="form-left">
+                    <div class="column">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="pwd" >Password</label>
+                    <input type="password" id="pwd" name="pwd" required>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <div class="column">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="number">Phone Number</label>
+                    <input type="tel" id="number" name="number">
+                    <label for="confirmPwd" >Confirm Password</label>
+                    <input type="password" id="confirmPwd" name="confirmPwd" required>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+        <button type="button" onclick="alert('button was clicked')">Create Account</button>
+        <div class="footer-par">Already have an account? <a href="#container">Log in</a></div>
+        </div>
     </div>
 </div>
     
